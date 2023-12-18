@@ -1,0 +1,128 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+body{
+font-family: Montserrat;
+    margin: 0;
+
+        background: -webkit-linear-gradient(left, #a5c3f0, #ffffff);
+        background: -moz-linear-gradient(left, #a5c3f0, #ffffff);
+        background: -ms-linear-gradient(left, #a5c3f0, #ffffff);
+        background: -o-linear-gradient(left, #a5c3f0, #ffffff);
+        background: linear-gradient(to right, #a5c3f0, #ffffff);
+}
+
+
+
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    color: #ffffff;
+}
+
+.imagem-login{
+
+    width: 35vw;
+}
+
+.rigth-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 35px;
+    background: #0F71F2;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px aliceblue;
+}
+
+.card-login > h1{
+
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    display: flex;
+
+}
+
+.imagem-login{
+
+    width: 35vw;
+}
+
+.text-field{
+
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: center;
+ margin: 5px;
+}
+
+.text-field > input{
+
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 12pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000E15;
+    box-shadow: 0px 1px 5px aliceblue;
+    outline: none;
+    box-sizing: border-box;
+    margin: 10px 0px;
+}
+
+.text-field > label{
+
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-login{
+
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    background: #FFFFFF;
+    color: #000E15;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0px 1px 5px (#036635);
+    margin-right: 60px;
+}
+
+
+

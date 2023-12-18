@@ -1,0 +1,394 @@
+/* alarme */
+
+/* Estilos padrão para todos os dispositivos */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#principal {
+  width: 80%;
+  margin: auto;
+}
+
+#titulo {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Estilos para dispositivos de até 600 pixels de largura (celulares) */
+@media only screen and (max-width: 600px) {
+  #principal {
+      width: 100%;
+  }
+}
+
+/* Estilos para dispositivos de até 768 pixels de largura (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  h1 {
+      font-size: 1.5em;
+  }
+}
+
+/* Estilos para dispositivos de 769 pixels de largura em diante (computadores) */
+@media only screen and (min-width: 769px) {
+  h1 {
+      font-size: 2em;
+  }
+}
+
+
+/* Blog */
+
+/* Estilos padrão */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.header, .footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.leftcolumn, .rightcolumn {
+  float: left;
+  width: 50%;
+}
+
+.card {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Responsividade para tablets */
+@media screen and (max-width: 768px) {
+  .leftcolumn, .rightcolumn {
+      width: 100%;
+  }
+}
+
+/* Responsividade para celulares */
+@media screen and (max-width: 600px) {
+  .leftcolumn, .rightcolumn {
+      width: 100%;
+  }
+
+  .card {
+      padding: 10px;
+  }
+}
+
+
+/* cadastro */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cadastro {
+  text-align: center;
+  padding: 20px;
+}
+
+.rigth-login {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+label,
+input,
+select,
+textarea,
+button {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Estilos para dispositivos móveis */
+  .rigth-login {
+      max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Estilos para tablets */
+  .rigth-login {
+      max-width: 80%;
+  }
+}
+
+
+/* chat */
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#principal {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#titulo {
+  text-align: center;
+}
+
+/* Estilos para telas grandes (computador) */
+@media only screen and (min-width: 768px) {
+  #principal {
+      display: flex;
+      flex-direction: column;
+  }
+
+  #titulo {
+      margin-bottom: 20px;
+  }
+
+  section {
+      order: 1;
+  }
+
+  #final {
+      order: 2;
+  }
+}
+
+/* Estilos para telas médias (tablet) */
+@media only screen and (max-width: 767px) {
+  .robo, .pessoa {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+      margin-bottom: 10px;
+  }
+
+  #final {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+  }
+}
+
+/* Estilos para telas pequenas (celular) */
+@media only screen and (max-width: 480px) {
+  #principal {
+      padding: 10px;
+  }
+
+  .robo, .pessoa {
+      font-size: 14px;
+  }
+
+  #final {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 5px;
+  }
+}
+
+
+/* organizador */
+
+
+/* Estilos para dispositivos maiores, como computadores */
+.pg_toda {
+  width: 80%;
+  margin: auto;
+}
+
+/* Estilos para tablets */
+@media only screen and (max-width: 768px) {
+  .pg_toda {
+      width: 90%;
+  }
+}
+
+/* Estilos para celulares */
+@media only screen and (max-width: 480px) {
+  .pg_toda {
+      width: 100%;
+  }
+
+  /* Estilos específicos para ocultar ou ajustar elementos em telas menores */
+  .cadastro h1 {
+      font-size: 24px; /* Reduza o tamanho da fonte para telas menores */
+  }
+
+  .rigth-login {
+      width: 100%;
+      box-sizing: border-box; /* Certifique-se de que as bordas e o preenchimento não causem rolagem horizontal */
+  }
+
+}
+
+/* Estilos para telas grandes (desktop) */
+@media only screen and (min-width: 1200px) {
+    /* Adicione os estilos desejados para telas grandes aqui */
+}
+
+/* Estilos para tablets e dispositivos médios */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    /* Adicione os estilos desejados para tablets aqui */
+}
+
+/* Estilos para celulares e dispositivos pequenos */
+@media only screen and (max-width: 767px) {
+    /* Adicione os estilos desejados para celulares aqui */
+    
+    /* Exemplo: Ajuste o tamanho da fonte para tornar o texto mais legível em telas pequenas */
+    h1, h2, h3 {
+        font-size: 18px;
+    }
+
+    /* Exemplo: Faça a imagem da logo ser 100% da largura da tela */
+    nav ul li img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* tela principal */
+
+/* Estilos para telas grandes (desktop) */
+@media only screen and (min-width: 1200px) {
+  /* Adicione os estilos desejados para telas grandes aqui */
+}
+
+/* Estilos para tablets e dispositivos médios */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* Adicione os estilos desejados para tablets aqui */
+}
+
+/* Estilos para celulares e dispositivos pequenos */
+@media only screen and (max-width: 767px) {
+  /* Adicione os estilos desejados para celulares aqui */
+  
+  /* Exemplo: Ajuste o tamanho da fonte para tornar o texto mais legível em telas pequenas */
+  h1, h2, h3 {
+      font-size: 18px;
+  }
+
+  /* Exemplo: Faça a imagem da logo ser 100% da largura da tela */
+  nav ul li img {
+      width: 100%;
+      height: auto;
+  }
+}
+
+/* Login */
+
+/* responsividade.css */
+
+/* Estilos para computador */
+.main-login {
+  display: flex;
+}
+
+.left-login {
+  flex: 1;
+}
+
+.rigth-login {
+  flex: 1;
+}
+
+/* Estilos para tablet */
+@media only screen and (max-width: 768px) {
+  .main-login {
+      flex-direction: column;
+  }
+
+  .left-login,
+  .rigth-login {
+      width: 100%;
+  }
+}
+
+/* Estilos para celular */
+@media only screen and (max-width: 480px) {
+  .text-field {
+      width: 100%;
+  }
+}
+
+
+/* começo */
+
+/* responsividade.css */
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para telas grandes (computadores) */
+.pg_toda {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilos para telas médias (tablets) */
+@media only screen and (max-width: 1024px) {
+  .pg_toda {
+      padding: 0 20px;
+  }
+}
+
+/* Estilos para telas pequenas (celulares) */
+@media only screen and (max-width: 768px) {
+  .nav {
+      text-align: center;
+  }
+  .nav ul {
+      padding: 10px 0;
+  }
+  .nav li {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .btn, .btno {
+      display: block;
+      margin: 10px auto;
+  }
+}
+
+/* Outros estilos de responsividade conforme necessário */
+
+/* Estilos específicos para a seção hero (pode variar conforme o design) */
+.hero-section {
+  background: url('background.jpg') center/cover no-repeat; /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* Outros estilos específicos para a seção hero conforme necessário */
+

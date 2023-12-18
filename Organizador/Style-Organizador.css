@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+    body{
+    font-family: Montserrat;
+        margin: 0;
+    }
+
+.cadastro{
+
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 35px;
+    background: #0367A6;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px aliceblue;
+    margin-left: 340px;
+    
+
+
+}
+
+body{
+
+    background: -webkit-linear-gradient(left, #ffffff, #0F71F2);
+    background: -moz-linear-gradient(left, #ffffff, #0F71F2);
+    background: -ms-linear-gradient(left, #ffffff, #0F71F2);
+    background: -o-linear-gradient(left, #ffffff, #0F71F2);
+    background: linear-gradient(to right, #ffffff, #0F71F2);
+}
+
+.rigth-login{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 35px;
+    background:   #0367A6;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px aliceblue;
+    margin-top: 3%;
+    margin-left: 460px;
+}
+
+label{
+
+    padding: 7%;
+    margin-bottom: 20px;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+input{
+
+
+    margin-top: 12px;
+}
+
+#ver{
+    width: 200px;
+    padding: 6px;
+    padding-right: 0%;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    background: #0367A6;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 80px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 1px 5px (#036635);
+    margin-left: 540px;
+}
+
+h1{
+    color: #ffffff;
+}
+
+a{
+
+    text-decoration: none;
+}
